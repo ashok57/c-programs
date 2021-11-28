@@ -1,0 +1,17 @@
+1) Program to calculate the area of rectangle?
+
+ #include<stdio.h>
+
+void main(){
+
+  int area;
+
+  int Width = 10;
+
+  int Height = 5;
+
+  area = Height*Width;
+
+  printf("area of rectangle= %d", area);
+
+}
