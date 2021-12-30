@@ -1,0 +1,44 @@
+//   ADULT_CASE
+#include<stdio.h>
+int main(){
+  int age = 20;
+  if(age>=18){
+    printf("you are an adult");
+  }
+  return 0;
+}
+//  MINOR_CASE
+#include <stdio.h>
+int main(){
+  int age = 16;
+  if(age<=18){
+    printf("you are minor");
+  }
+  return 0;
+}
+
+// CASE 1. 
+#include <stdio.h>
+int main(){
+  int age = 16;
+  if(age<=18){
+    printf("you are minor\n");
+  }
+  else{
+    printf("you are an adult");
+  }
+  return 0;
+}
+
+// CASE 2.
+#include <stdio.h>
+int main(){
+  int age = 20;
+  if(age<=18){
+    printf("you are minor\n");
+  }
+  else{
+    printf("you are an adult");
+  }
+  return 0;
+}
