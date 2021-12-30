@@ -1,0 +1,20 @@
+//printf() function
+
+#include <stdio.h>
+int main(){
+  int age = 21;
+  printf("my age is %d\n",age);
+  printf("Hi this is \"Ashok\" my age is %d",age);
+  return 0;
+  }
+  
+ // scanf() function
+  #include <stdio.h>
+  int main(){
+  int age;
+  float weight;
+  printf("enter your age and weight\n");
+  scanf("%d %f",&age,&weight);
+ printf("your age is %d\n your weight is %f",age,weight);
+  return 0;
+}
