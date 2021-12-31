@@ -1,0 +1,44 @@
+//LOGICAL OPERATORS-----------------
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int age = 15;
+    if(age<=18 && age>=13){
+        printf("you are teenager\n");
+    }
+    else{
+        printf("you are not teenager");
+    }
+    getch();
+    return 0;
+}
+-------------------------------------
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int age = 20;
+    if(age<=18 && age>=13){
+        printf("you are teenager\n");
+    }
+    else{
+        printf("you are not teenager");
+    }
+    getch();
+    return 0;
+}
+------------------------------------
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int age = 20;
+    if(age<=18 || age>=13){
+        printf("you are teenager\n");
+    }
+    else{
+        printf("you are not teenager");
+    }
+    getch();
+    return 0;
+}
+
