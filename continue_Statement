@@ -1,0 +1,39 @@
+#include<stdio.h>        
+int main(){
+   int counter;
+    for(counter = 1;counter<=10; counter++){
+        if(counter== 2){
+            continue;
+        }
+        printf("%d ",counter);
+    }
+   return 0;
+}
+=============================
+/////OOD NUBER USING COUNTINUE STATEMENT :
+#include<stdio.h>        
+int main(){
+   int counter;
+    for(counter = 1;counter<=10; counter++){
+        if((counter%2)==0){
+            continue;
+        }
+        printf("%d ",counter);
+    }
+   return 0;
+}
+
+================================
+EVEN NUBER USING COUNTINUE STATEMENT :
+
+#include<stdio.h>        
+int main(){
+   int counter;
+    for(counter = 1;counter<=10; counter++){
+        if((counter%2)!=0){
+            continue;
+        }
+        printf("%d ",counter);
+    }
+   return 0;
+}
