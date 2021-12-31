@@ -1,0 +1,42 @@
+//INCREMENT OPERATORS(post increment)
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int x = 10;
+    printf("x value is %d \n",x++);
+    printf("x value now is %d\n",x);
+    getch();
+    return 0;
+}
+
+//INCREMENT OPERATORS(pre increment)
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int x = 10;
+    printf("x value is %d \n",x++);
+    printf("x value now is %d\n",x);
+    getch();
+    return 0;
+}
+  ------------------------------
+  //DECREMENT OPERATORS(post decrement)
+ #include<stdio.h>
+ #include<conio.h>
+ int main(){
+    int x = 10;
+    printf("x value is %d \n",x--);
+    printf("x value now is %d\n",x);
+    getch();
+    return 0;
+}
+ //DECREMENT OPERATORS(pre decrement)
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int x = 10;
+    printf("x value is %d \n",--x);
+    printf("x value now is %d\n",x);
+    getch();
+    return 0;
+}
