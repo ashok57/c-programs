@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main()
+{
+    int age = 20;
+    age>=18 ? printf("you are an adult") : printf("you are child");
+  
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+    int age = 16;
+    age>=18 ? printf("you are an adult") : printf("you are child");
+  
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+    int age = 16;
+    int x;
+    
+    x =(age>=18) ? 1: 0;
+    printf("%d",x);
+  
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+    int age = 20;
+    int x;
+    
+    x =(age>=18) ? 1: 0;
+    printf("%d",x);
+  
+    return 0;
+}
