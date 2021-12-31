@@ -1,0 +1,12 @@
+#include<stdio.h>        //BREAK STATEMENTS//
+int main(){
+    int counter;
+   for(counter =1;counter<=10;counter++){
+       if(counter==5){
+           break;
+       }
+       printf("%d\n",counter);
+   }
+   printf("break the session\n");
+    return 0;
+}
