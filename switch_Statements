@@ -1,0 +1,80 @@
+#include <stdio.h>
+
+int main()
+{
+   int number = 2;
+   switch(number){
+       case 1:
+       printf("one\n");
+       case 2:
+       printf("two\n");
+       case 3:
+       printf("three\n");
+       default:
+       printf("default\n");
+   }
+   
+    return 0;
+}
+// o/p:   two
+          three
+          default
+=====================================
+#include <stdio.h>
+
+int main()
+{
+   char ch = 'A';
+    printf("%d\n",ch);
+   switch(ch){
+      case 'A':
+       printf("case A \n");
+      
+   }
+   
+    return 0;
+}
+
+====================================
+FOR RANGE CASE:
+#include <stdio.h>
+
+int main()
+{
+   
+   int x = 11;
+   switch(x) {
+       case 0 ... 1000:
+        printf("%d is betweeen 0 and 1000",x);
+        break;
+      case 2000:
+        printf("case 2000");
+        break;
+      default:
+        printf("default case");
+        break;
+        }
+        return 0;
+}
+=====================================
+# CHECK WHETEHR IT IS UPPERCASE OR LOWERCASE USING SWITCH
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter the character\n");
+    scanf("%c",&ch);
+    switch(ch){
+        case 'A' ... 'Z':
+            printf("%c is a Uppercase",ch);
+            break;
+        case 'a' ... 'z':
+            printf("%c is a Lowercase",ch);
+            break;
+            default:
+            printf("please enter char");
+            }
+    return 0;
+    }
+    
+    
+ 
