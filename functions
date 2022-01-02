@@ -1,0 +1,27 @@
+#include<stdio.h>
+void display();
+int main(){
+    
+    display();
+    return 0;
+    
+}
+void display(){
+    printf("thinnvsd fodfbfds b;bfb dfnbd \n");
+}
+
+
+============================
+ANOTHER WAY:
+#include<stdio.h>
+void display();
+void display(){
+    printf("thinnvsd fodfbfds b;bfb dfnbd \n");
+}
+int main(){
+    
+    display();
+   
+    return 0;
+    
+}
