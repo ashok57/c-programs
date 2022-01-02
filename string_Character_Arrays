@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+   char name[] = {'A','S','H','O','K'};
+   char sirName[] = "kumar";
+   printf("%c\n",name[2]);
+   printf("%s \n",sirName);
+   printf("%c",sirName[3]);
+   printf("%s",sirName);
+   
+    return 0;
+}
