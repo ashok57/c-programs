@@ -1,0 +1,38 @@
+#include<stdio.h>
+# define MARKS 95
+int main(){
+    # if MARKS >=75
+    printf("Your MARKS are greater than 75\n");
+    printf("you have got thr grade A\n");
+    # endif
+    return 0;
+}
+==================
+#include<stdio.h>
+# define MARKS 65
+int main(){
+    # if MARKS >=75
+    printf("Your MARKS are greater than 75\n");
+    printf("you have got thr grade A\n");
+    # else
+        printf("Your MARKS are less\n");
+        
+    # endif
+    return 0;
+}
+========================
+#include<stdio.h>
+# define MARKS 65
+int main(){
+    # if MARKS >=75
+    printf("Your MARKS are greater than 75\n");
+    printf("you have got thr grade A\n");
+    # elif MARKS>=50
+    printf("Your MARKS are greater than 50 and less than 75\n");
+    printf("you have got the grade B\n");
+    # else
+        printf("Your MARKS are less\n");
+        
+    # endif
+    return 0;
+}
